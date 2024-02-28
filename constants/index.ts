@@ -44,7 +44,7 @@ export const navLinks = [
 export const plans = [
   {
     _id: 1,
-    name: "Free",
+    name: "Nyla-AI Free",
     icon: "/assets/icons/free-plan.svg",
     price: 0,
     credits: 20,
@@ -69,7 +69,7 @@ export const plans = [
   },
   {
     _id: 2,
-    name: "Pro Package",
+    name: "Nyla-AI Pro Package",
     icon: "/assets/icons/free-plan.svg",
     price: 40,
     credits: 120,
@@ -94,7 +94,7 @@ export const plans = [
   },
   {
     _id: 3,
-    name: "Premium Package",
+    name: "Nyla-AI Premium Package",
     icon: "/assets/icons/free-plan.svg",
     price: 199,
     credits: 2000,
@@ -123,28 +123,28 @@ export const transformationTypes = {
   restore: {
     type: "restore",
     title: "Restore Image",
-    subTitle: "Refine images by removing noise and imperfections",
+    subTitle: "Refine images by removing noise and imperfections with Nyla-AI",
     config: { restore: true },
     icon: "image.svg",
   },
   removeBackground: {
     type: "removeBackground",
     title: "Background Remove",
-    subTitle: "Removes the background of the image using AI",
+    subTitle: "Removes the background of the image using Nyla-AI",
     config: { removeBackground: true },
     icon: "camera.svg",
   },
   fill: {
     type: "fill",
     title: "Generative Fill",
-    subTitle: "Enhance an image's dimensions using AI outpainting",
+    subTitle: "Enhance an image's dimensions using Nyla-AI outpainting",
     config: { fillBackground: true },
     icon: "stars.svg",
   },
   remove: {
     type: "remove",
     title: "Object Remove",
-    subTitle: "Identify and eliminate objects from images",
+    subTitle: "Identify and eliminate objects from images with Nyla-AI",
     config: {
       remove: { prompt: "", removeShadow: true, multiple: true },
     },
@@ -153,7 +153,7 @@ export const transformationTypes = {
   recolor: {
     type: "recolor",
     title: "Object Recolor",
-    subTitle: "Identify and recolor objects from the image",
+    subTitle: "Identify and recolor objects from the image with Nyla-AI",
     config: {
       recolor: { prompt: "", to: "", multiple: true },
     },
